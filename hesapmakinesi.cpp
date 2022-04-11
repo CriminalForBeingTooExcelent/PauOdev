@@ -16,6 +16,8 @@ int main(){
       break;
     case '/':
     sonuc = sayi1 / sayi2;
+      if(sayi2==0) {
+        cout<<"hata sifira bolunemez"; ]
       break;
     default:
     sonuc = 0;
