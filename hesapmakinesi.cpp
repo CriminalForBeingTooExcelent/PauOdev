@@ -14,6 +14,9 @@ int main(){
     case '+':
     sonuc = sayi1 + sayi2;
       break;
+    case '/':
+    sonuc = sayi1 / sayi2;
+      break;
     default:
     sonuc = 0;
       break;
